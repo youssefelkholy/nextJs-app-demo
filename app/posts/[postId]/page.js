@@ -4,7 +4,7 @@ import { Suspense } from "react";
 export default async function postDetailsPage({ params }) {
     const loadingJsx = (
         <div>
-            <h1>Loading.......</h1>
+            <h1>Waiting.....</h1>
         </div>
     )
     const postId = params.postId;
